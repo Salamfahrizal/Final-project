@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body {
+    background-image : url("asd.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+ }
+#navbar{
+    background-color: black;
+    padding: 26px;
+    display: flex;
+    justify-content: space-between;
+    font-family: akira_expanded;
+
+    
+}
+ul{
+    list-style: none;
+    display:flex;
+    background-color:red;
+    justify-content: space-between;
+    align-items: center;
+    
+}   
+#navbar ul li{
+    display: block;
+    padding: 25px;
+
+}
+#home{
+    padding: 26px;
+    justify-content: space-between;
+    align-items: center;
+}
+.halaman1{
+    align-items: center;
+    font-color: red;
+}
